@@ -6,19 +6,20 @@
 	<artifactId>HrmsFrameWork1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
+
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
-
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -49,6 +50,6 @@
 			<version>4.0.9</version>
 		</dependency>
 
-
 	</dependencies>
+
 </project>

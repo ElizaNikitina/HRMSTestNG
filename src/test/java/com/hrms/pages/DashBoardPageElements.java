@@ -39,13 +39,16 @@ public class DashBoardPageElements extends CommonMethods{
 		
 		@FindBy(id = "menu_pim_addEmployee")
 		public WebElement pimAddEmp;
+		
+		@FindBy(xpath = "//a[@id='menu_core_viewDefinedPredefinedReports']")
+		public WebElement report;
 	
 
 
 		@FindBy(xpath = "//a[@id='menu_pim_addEmployee']")
 		public WebElement addEmp;
 		
-		@FindBy(xpath = "//a[@id='menu_pim_viewPimModule']")
+		@FindBy(id = "menu_pim_viewPimModule")
 		public WebElement PIM;
 
 		
@@ -55,7 +58,11 @@ public class DashBoardPageElements extends CommonMethods{
 			jsClick(addEmp);
 		}
 	
-		
+		public void navigateToReports() {
+			jsClick(PIM);
+			jsClick(report);
+		}
+	
 		@FindBy(xpath = "//*[@id=\"photofile\"]")
 		public WebElement photofile;
 		

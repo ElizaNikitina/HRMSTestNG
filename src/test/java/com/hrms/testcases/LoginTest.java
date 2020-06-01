@@ -16,12 +16,13 @@ public class LoginTest extends CommonMethods {
 	
 	@Test(groups="smoke")
 	public void validAdminLogin() {
-		// LoginPageElements login = new LoginPageElements();
+		test.info("Entering valid admin credentilas");
 		sendText(login.username, ConfigsReader.getProperty("username"));
 		sendText(login.password, ConfigsReader.getProperty("password"));
 		click(login.loginBtn);
 
 		// DashboardPageElements dashboard = new DashboardPageElements();
+		test.info("Verifying valid username shows with welcome text");
 		String expectedUser = "Welcome Admin";
 		String actualUser = dashboard.welcome.getText();
 		Assert.assertEquals(actualUser, expectedUser, "Admin is NOT Logged in");
@@ -32,10 +33,10 @@ public class LoginTest extends CommonMethods {
 	public void invalidPasswordLogin() {
 		// LoginPageElements login = new LoginPageElements();
 		sendText(login.username, ConfigsReader.getProperty("username"));
-		sendText(login.password, "uiuguig");
+		sendText(login.password, "qwe");
 		click(login.loginBtn);
 
-		String expected = "Invalid credential";
+		String expected = "Invalid credentials";
 		Assert.assertEquals(login.errorMsg.getText(), expected, "Error message text is not matched");
 	}
 

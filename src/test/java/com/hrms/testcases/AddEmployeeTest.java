@@ -59,7 +59,7 @@ public class AddEmployeeTest extends CommonMethods {
 
 	@DataProvider(name = "userDataFromExcel")
 	public Object[][] getData2() {
-		return ExcelUtility.excelIntoArray(Constants.TESTDATA_FILEPATH, "EmploeeLoginCredential");
+		return ExcelUtility.excelIntoArray(Constants.TESTDATA_FILEPATH, "EmployeeLoginCredentials");
 	}
 
 }

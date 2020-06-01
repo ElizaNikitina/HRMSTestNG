@@ -1,159 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="2" ignored="3" total="6" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="11915" started-at="2020-05-31T12:01:23 CDT" finished-at="2020-05-31T12:01:35 CDT">
+  <suite name="Suite" duration-ms="82662" started-at="2020-06-01T15:50:36 CDT" finished-at="2020-06-01T15:51:59 CDT">
     <groups>
-      <group name="addEmp">
-        <method signature="AddEmployeeTest.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@4b553d26]" name="test" class="com.hrms.testcases.AddEmployeeTest"/>
-      </group> <!-- addEmp -->
-      <group name="homework">
-        <method signature="AddEmployeeTest.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@4b553d26]" name="test" class="com.hrms.testcases.AddEmployeeTest"/>
-      </group> <!-- homework -->
-      <group name="regression">
-        <method signature="AddEmployeeTest.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@4b553d26]" name="test" class="com.hrms.testcases.AddEmployeeTest"/>
-        <method signature="LoginTest.emptyUsernameLogin()[pri:0, instance:com.hrms.testcases.LoginTest@3dfc5fb8]" name="emptyUsernameLogin" class="com.hrms.testcases.LoginTest"/>
-        <method signature="LoginTest.invalidPasswordLogin()[pri:0, instance:com.hrms.testcases.LoginTest@3dfc5fb8]" name="invalidPasswordLogin" class="com.hrms.testcases.LoginTest"/>
-      </group> <!-- regression -->
     </groups>
-    <test name="Regression Test" duration-ms="11915" started-at="2020-05-31T12:01:23 CDT" finished-at="2020-05-31T12:01:35 CDT">
-      <class name="com.hrms.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@3dfc5fb8]" name="setUp" is-config="true" duration-ms="5640" started-at="2020-05-31T12:01:23 CDT" finished-at="2020-05-31T12:01:29 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="emptyUsernameLogin()[pri:0, instance:com.hrms.testcases.LoginTest@3dfc5fb8]" name="emptyUsernameLogin" duration-ms="123" started-at="2020-05-31T12:01:29 CDT" finished-at="2020-05-31T12:01:29 CDT">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
-at com.hrms.utils.CommonMethods.sendText(CommonMethods.java:32)
-at com.hrms.testcases.LoginTest.emptyUsernameLogin(LoginTest.java:45)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emptyUsernameLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="691" started-at="2020-05-31T12:01:29 CDT" finished-at="2020-05-31T12:01:29 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@3dfc5fb8]" name="setUp" is-config="true" duration-ms="4311" started-at="2020-05-31T12:01:29 CDT" finished-at="2020-05-31T12:01:34 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="invalidPasswordLogin()[pri:0, instance:com.hrms.testcases.LoginTest@3dfc5fb8]" name="invalidPasswordLogin" duration-ms="120" started-at="2020-05-31T12:01:34 CDT" finished-at="2020-05-31T12:01:34 CDT">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
-at com.hrms.utils.CommonMethods.sendText(CommonMethods.java:32)
-at com.hrms.testcases.LoginTest.invalidPasswordLogin(LoginTest.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidPasswordLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="685" started-at="2020-05-31T12:01:34 CDT" finished-at="2020-05-31T12:01:34 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hrms.testcases.LoginTest -->
-      <class name="com.hrms.testcases.AddEmployeeTest">
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@4b553d26]" name="generateReport" is-config="true" duration-ms="166" started-at="2020-05-31T12:01:23 CDT" finished-at="2020-05-31T12:01:23 CDT">
+    <test name="Test" duration-ms="82662" started-at="2020-06-01T15:50:36 CDT" finished-at="2020-06-01T15:51:59 CDT">
+      <class name="com.hrms.testcases.DifferentReports">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="generateReport" is-config="true" duration-ms="152" started-at="2020-06-01T15:50:36 CDT" finished-at="2020-06-01T15:50:36 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="SKIP" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@4b553d26]" name="test" duration-ms="0" started-at="2020-05-31T12:01:23 CDT" data-provider="userDataFromExcel" finished-at="2020-05-31T12:01:23 CDT">
-          <exception class="java.lang.RuntimeException">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="4962" started-at="2020-06-01T15:50:36 CDT" finished-at="2020-06-01T15:50:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="19095" started-at="2020-06-01T15:50:41 CDT" data-provider="reports creation" finished-at="2020-06-01T15:51:01 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Report One]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[display_field_9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-06-01T15:51:01 CDT" finished-at="2020-06-01T15:51:02 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="3754" started-at="2020-06-01T15:51:02 CDT" finished-at="2020-06-01T15:51:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="20588" started-at="2020-06-01T15:51:05 CDT" data-provider="reports creation" finished-at="2020-06-01T15:51:26 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Report Two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[display_field_11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="708" started-at="2020-06-01T15:51:26 CDT" finished-at="2020-06-01T15:51:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="3904" started-at="2020-06-01T15:51:27 CDT" finished-at="2020-06-01T15:51:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="26321" started-at="2020-06-01T15:51:31 CDT" data-provider="reports creation" finished-at="2020-06-01T15:51:57 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Report Three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[display_field_10]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#report_report_name"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8LOAM9LK', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\6128~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fdb48ee5d7efcbda69bfc3d87beaf742
+*** Element info: {Using=id, value=report_report_name}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:51)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:801)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#report_report_name"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8LOAM9LK', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\6128~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fdb48ee5d7efcbda69bfc3d87beaf742
+*** Element info: {Using=id, value=report_report_name}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.clear(Unknown Source)
+at com.hrms.utils.CommonMethods.sendText(CommonMethods.java:33)
+at com.hrms.testcases.DifferentReports.createReports(DifferentReports.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -173,39 +160,21 @@ at org.testng.TestNG.run(TestNG.java:1007)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
-at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:145)
-at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.<init>(ZipInputStreamZipEntrySource.java:49)
-at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:106)
-at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
-at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
-at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
-at com.hrms.utils.ExcelUtility.openExcel(ExcelUtility.java:19)
-at com.hrms.utils.ExcelUtility.excelIntoArray(ExcelUtility.java:43)
-at com.hrms.testcases.AddEmployeeTest.getData2(AddEmployeeTest.java:62)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:78)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:47)
-... 25 more
-Caused by: java.util.zip.ZipException: Unexpected record signature: 0X6B636170
-at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:260)
-at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:141)
-... 40 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@4b553d26]" name="writeReport" is-config="true" duration-ms="14" started-at="2020-05-31T12:01:34 CDT" finished-at="2020-05-31T12:01:35 CDT">
+        </test-method> <!-- createReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-06-01T15:51:58 CDT" finished-at="2020-06-01T15:51:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="writeReport" is-config="true" duration-ms="470" started-at="2020-06-01T15:51:58 CDT" finished-at="2020-06-01T15:51:59 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReport -->
-      </class> <!-- com.hrms.testcases.AddEmployeeTest -->
-    </test> <!-- Regression Test -->
-  </suite> <!-- Regression Suite -->
+      </class> <!-- com.hrms.testcases.DifferentReports -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

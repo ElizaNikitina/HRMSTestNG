@@ -6,7 +6,7 @@ public class Constants {
 	
 	public static final String GECKO_DRIVER_PATH=System.getProperty("user.dir")+"/src/test/resources/drivers/geckodriver.exe";
 	
-	public static final String CONFIGURATION_FILEPATH=System.getProperty("user.dir")+"/src/test/resources/configs/configuration.properties";
+	public static final String CONFIGURATION_FILEPATH=System.getProperty("user.dir")+"\\src\\test\\resources\\configs\\configuration.properties";
 	
 	public static final int IMPLICIT_WAIT_TIME=15;
 	
@@ -15,6 +15,7 @@ public class Constants {
 	public static final String TESTDATA_FILEPATH = System.getProperty("user.dir")+"/src/test/java/com/hrms/utils/ExcelUtility.java";
 	
 	public static final String REPORT_FILEPATH = System.getProperty("user.dir")+ "/target/html-report/HRMS.html";
-
+  
+	public static final String SCREENSHOT_FILEPATH = System.getProperty("user.dir") + "/screenshot/";
 	
 }
