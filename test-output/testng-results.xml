@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="82662" started-at="2020-06-01T15:50:36 CDT" finished-at="2020-06-01T15:51:59 CDT">
+  <suite name="Suite" duration-ms="80772" started-at="2020-06-02T13:45:48 CDT" finished-at="2020-06-02T13:47:09 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="82662" started-at="2020-06-01T15:50:36 CDT" finished-at="2020-06-01T15:51:59 CDT">
+    <test name="Test" duration-ms="80772" started-at="2020-06-02T13:45:48 CDT" finished-at="2020-06-02T13:47:09 CDT">
       <class name="com.hrms.testcases.DifferentReports">
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="generateReport" is-config="true" duration-ms="152" started-at="2020-06-01T15:50:36 CDT" finished-at="2020-06-01T15:50:36 CDT">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="generateReport" is-config="true" duration-ms="166" started-at="2020-06-02T13:45:48 CDT" finished-at="2020-06-02T13:45:48 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="4962" started-at="2020-06-01T15:50:36 CDT" finished-at="2020-06-01T15:50:41 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="7626" started-at="2020-06-02T13:45:48 CDT" finished-at="2020-06-02T13:45:56 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="19095" started-at="2020-06-01T15:50:41 CDT" data-provider="reports creation" finished-at="2020-06-01T15:51:01 CDT">
+        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="19247" started-at="2020-06-02T13:45:56 CDT" data-provider="reports creation" finished-at="2020-06-02T13:46:15 CDT">
           <params>
             <param index="0">
               <value>
@@ -36,15 +36,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReports -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-06-01T15:51:01 CDT" finished-at="2020-06-01T15:51:02 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="733" started-at="2020-06-02T13:46:15 CDT" finished-at="2020-06-02T13:46:16 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="3754" started-at="2020-06-01T15:51:02 CDT" finished-at="2020-06-01T15:51:05 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="5038" started-at="2020-06-02T13:46:16 CDT" finished-at="2020-06-02T13:46:21 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="20588" started-at="2020-06-01T15:51:05 CDT" data-provider="reports creation" finished-at="2020-06-01T15:51:26 CDT">
+        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="19965" started-at="2020-06-02T13:46:21 CDT" data-provider="reports creation" finished-at="2020-06-02T13:46:41 CDT">
           <params>
             <param index="0">
               <value>
@@ -65,15 +65,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReports -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="708" started-at="2020-06-01T15:51:26 CDT" finished-at="2020-06-01T15:51:27 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="714" started-at="2020-06-02T13:46:42 CDT" finished-at="2020-06-02T13:46:42 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="3904" started-at="2020-06-01T15:51:27 CDT" finished-at="2020-06-01T15:51:31 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="6056" started-at="2020-06-02T13:46:42 CDT" finished-at="2020-06-02T13:46:48 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="26321" started-at="2020-06-01T15:51:31 CDT" data-provider="reports creation" finished-at="2020-06-01T15:51:57 CDT">
+        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="18762" started-at="2020-06-02T13:46:48 CDT" data-provider="reports creation" finished-at="2020-06-02T13:47:07 CDT">
           <params>
             <param index="0">
               <value>
@@ -91,86 +91,14 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#report_report_name"}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-8LOAM9LK', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\6128~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: fdb48ee5d7efcbda69bfc3d87beaf742
-*** Element info: {Using=id, value=report_report_name}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#report_report_name"}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-8LOAM9LK', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\6128~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: fdb48ee5d7efcbda69bfc3d87beaf742
-*** Element info: {Using=id, value=report_report_name}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.clear(Unknown Source)
-at com.hrms.utils.CommonMethods.sendText(CommonMethods.java:33)
-at com.hrms.testcases.DifferentReports.createReports(DifferentReports.java:28)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReports -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-06-01T15:51:58 CDT" finished-at="2020-06-01T15:51:58 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="700" started-at="2020-06-02T13:47:07 CDT" finished-at="2020-06-02T13:47:08 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="writeReport" is-config="true" duration-ms="470" started-at="2020-06-01T15:51:58 CDT" finished-at="2020-06-01T15:51:59 CDT">
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="writeReport" is-config="true" duration-ms="474" started-at="2020-06-02T13:47:08 CDT" finished-at="2020-06-02T13:47:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReport -->

@@ -1,9 +1,5 @@
 package com.hrms.testcases;
 
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.*;
 
 import com.hrms.utils.CommonMethods;
@@ -14,6 +10,7 @@ public class DifferentReports extends CommonMethods {
 	@Test(priority = 1 , dataProvider = "reports creation")
 	public void createReports(String repName, String selectCreteria, String dispFields) {
 		
+		test.info("Entering valid admin credentilas");
 		sendText(login.username, ConfigsReader.getProperty("username"));
 		sendText(login.password, ConfigsReader.getProperty("password"));
 		click(login.loginBtn);
@@ -25,6 +22,7 @@ public class DifferentReports extends CommonMethods {
 		
 		wait(2);
 		
+		test.info("create different type of reports");
 		sendText(reports.reportName,repName);
 		selectDdValue(reports.selectedCriteria, selectCreteria);
 		selectDdValue(reports.displayFields, dispFields);
