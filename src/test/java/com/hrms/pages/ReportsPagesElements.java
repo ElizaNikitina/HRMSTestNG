@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
 
 import com.hrms.testbase.BaseClass;
 import com.hrms.utils.CommonMethods;
@@ -19,10 +18,10 @@ public class ReportsPagesElements extends CommonMethods {
 	@FindBy(id = "report_report_name")
 	public WebElement reportName;
 
-	@FindBy(id = "report_include_comparision")
+	@FindBy(xpath = "//fieldset/ol/li/select[@id='report_include_comparision']")
 	public WebElement selectedCriteria;
 
-	@FindBy(id = "report_include_comparision")
+	@FindBy(id = "report_display_field_list")
 	public WebElement displayFields;
 
 	@FindBy(id = "btnSave")

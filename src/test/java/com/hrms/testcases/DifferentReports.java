@@ -7,7 +7,7 @@ import com.hrms.utils.ConfigsReader;
 
 public class DifferentReports extends CommonMethods {
 
-	@Test(priority = 1 , dataProvider = "reports creation")
+	@Test(dataProvider = "reports creation")
 	public void createReports(String repName, String selectCreteria, String dispFields) {
 		
 		test.info("Entering valid admin credentilas");
@@ -41,9 +41,9 @@ public class DifferentReports extends CommonMethods {
 	@DataProvider(name = "reports creation")
 	public Object[][] getData() {
 		Object[][] data = { 
-				{ "Report One", "1", "display_field_9" }, 
-				{ "Report Two", "2", "display_field_11" },
-				{ "Report Three", "3", "display_field_10" } 
+				{ "Report One", "Past Employees Only", "display_field_9" }, 
+				{ "Report Two", "Current and Past Employees", "display_field_11" },
+				{ "Report Three", "Current Employees Only", "display_field_10" } 
 		};
 		
 		return data;
