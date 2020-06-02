@@ -42,11 +42,11 @@ public class DifferentReports extends CommonMethods {
 	public Object[][] getData() {
 		Object[][] data = { 
 				{ "Report One", "Past Employees Only", "Employee Last Name" }, 
-//				{ "Report Two", "Current and Past Employees", "Employee First Name" },
-//				{ "Report Three", "Current Employees Only", "Employee Middle Name" } ,
-//				{ "Report Four", "Past Employees Only", "Employee Middle Name" }, 
-//				{ "Report Five", "Current and Past Employees", "Nationality" },
-//				{ "Report Six", "Current Employees Only", "Driver License Number" } 
+				{ "Report Two", "Current and Past Employees", "Employee First Name" },
+				{ "Report Three", "Current Employees Only", "Employee Middle Name" } ,
+				{ "Report Four", "Past Employees Only", "Employee Middle Name" }, 
+				{ "Report Five", "Current and Past Employees", "Nationality" },
+				{ "Report Six", "Current Employees Only", "Driver License Number" } 
 		};
 		
 		return data;
