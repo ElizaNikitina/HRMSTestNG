@@ -10,7 +10,7 @@
         <methods>
           <include name="generateReport"/>
           <include name="writeReport"/>
-          <include name="createReports" invocation-numbers="0 1 2"/>
+          <include name="createReports" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

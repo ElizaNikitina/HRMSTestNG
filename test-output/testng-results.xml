@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31156" started-at="2020-06-02T17:31:00 CDT" finished-at="2020-06-02T17:31:31 CDT">
+  <suite name="Suite" duration-ms="29235" started-at="2020-06-02T17:43:40 CDT" finished-at="2020-06-02T17:44:10 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31156" started-at="2020-06-02T17:31:00 CDT" finished-at="2020-06-02T17:31:31 CDT">
+    <test name="Test" duration-ms="29235" started-at="2020-06-02T17:43:40 CDT" finished-at="2020-06-02T17:44:10 CDT">
       <class name="com.hrms.testcases.DifferentReports">
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="generateReport" is-config="true" duration-ms="159" started-at="2020-06-02T17:31:00 CDT" finished-at="2020-06-02T17:31:00 CDT">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="generateReport" is-config="true" duration-ms="168" started-at="2020-06-02T17:43:41 CDT" finished-at="2020-06-02T17:43:41 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="7696" started-at="2020-06-02T17:31:00 CDT" finished-at="2020-06-02T17:31:08 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="setUp" is-config="true" duration-ms="7537" started-at="2020-06-02T17:43:41 CDT" finished-at="2020-06-02T17:43:48 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="21656" started-at="2020-06-02T17:31:08 CDT" data-provider="reports creation" finished-at="2020-06-02T17:31:30 CDT">
+        <test-method status="PASS" signature="createReports(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="createReports" duration-ms="19854" started-at="2020-06-02T17:43:48 CDT" data-provider="reports creation" finished-at="2020-06-02T17:44:08 CDT">
           <params>
             <param index="0">
               <value>
@@ -29,18 +29,18 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[display_field_9]]>
+                <![CDATA[Employee Last Name]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReports -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="663" started-at="2020-06-02T17:31:30 CDT" finished-at="2020-06-02T17:31:31 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="tearDown" is-config="true" duration-ms="717" started-at="2020-06-02T17:44:09 CDT" finished-at="2020-06-02T17:44:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="writeReport" is-config="true" duration-ms="510" started-at="2020-06-02T17:31:31 CDT" finished-at="2020-06-02T17:31:31 CDT">
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.DifferentReports@11438d26]" name="writeReport" is-config="true" duration-ms="487" started-at="2020-06-02T17:44:09 CDT" finished-at="2020-06-02T17:44:10 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReport -->

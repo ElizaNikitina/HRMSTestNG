@@ -41,9 +41,12 @@ public class DifferentReports extends CommonMethods {
 	@DataProvider(name = "reports creation")
 	public Object[][] getData() {
 		Object[][] data = { 
-				{ "Report One", "Past Employees Only", "display_field_9" }, 
-				{ "Report Two", "Current and Past Employees", "display_field_11" },
-				{ "Report Three", "Current Employees Only", "display_field_10" } 
+				{ "Report One", "Past Employees Only", "Employee Last Name" }, 
+//				{ "Report Two", "Current and Past Employees", "Employee First Name" },
+//				{ "Report Three", "Current Employees Only", "Employee Middle Name" } ,
+//				{ "Report Four", "Past Employees Only", "Employee Middle Name" }, 
+//				{ "Report Five", "Current and Past Employees", "Nationality" },
+//				{ "Report Six", "Current Employees Only", "Driver License Number" } 
 		};
 		
 		return data;
